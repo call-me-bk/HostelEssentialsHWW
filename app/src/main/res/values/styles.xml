@@ -1,11 +1,20 @@
 <resources>
 
+
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Theme Created For AppBar -->
+    <style name="AppBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/Dark_Blue</item>
+        <!--<item name="android:actionMenuTextColor">@color/White</item>-->
+    </style>
+
+    <!-- Menu Items Theme In AppBar-->
+    <style name="AppBar_Menu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/Off_White</item>
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4dp</item>
     </style>
 
 </resources>

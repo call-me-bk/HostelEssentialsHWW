@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HWW</string>
+    <string name="toolbar_id">ToolBar</string>
 </resources>
